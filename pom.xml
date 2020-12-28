@@ -20,6 +20,7 @@
 		<m2e.apt.activation>jdt_apt</m2e.apt.activation>
 		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
 		<jjwt.version>0.9.1</jjwt.version>
+		<modelmapper.version>2.3.0</modelmapper.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -28,8 +29,39 @@
 				<artifactId>jjwt</artifactId>
 				<version>${jjwt.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>org.modelmapper</groupId>
+				<artifactId>modelmapper</artifactId>
+				<version>${modelmapper.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.jacoco</groupId>
+					<artifactId>jacoco-maven-plugin</artifactId>
+					<version>0.8.6</version>
+					<executions>
+						<execution>
+							<goals>
+								<goal>prepare-agent</goal>
+							</goals>
+						</execution>
+						<execution>
+							<id>report</id>
+							<phase>prepare-package</phase>
+							<goals>
+								<goal>report</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
 
 	<modules>
 		<module>auth</module>

@@ -25,9 +25,7 @@ public class AuthApplication {
 	@Bean
 	CommandLineRunner init(UserRepository userRepository, PermissionRepository permissionRepository,
 			BCryptPasswordEncoder passwordEncoder) {
-		return args -> {
-			initUsers(userRepository, permissionRepository, passwordEncoder);
-		};
+		return args -> initUsers(userRepository, permissionRepository, passwordEncoder);
 	}
 
 	private void initUsers(UserRepository userRepository, PermissionRepository permissionRepository,

@@ -2,7 +2,6 @@ package com.veloso.crud.services;
 
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -13,7 +12,10 @@ import com.veloso.crud.exception.ResourceNotFoundException;
 import com.veloso.crud.message.ProdutoSendMessage;
 import com.veloso.crud.repository.ProdutoRepository;
 
+import lombok.RequiredArgsConstructor;
+
 @Service
+@RequiredArgsConstructor
 public class ProdutoService {
 
 	private final ProdutoRepository produtoRepository;
@@ -22,13 +24,6 @@ public class ProdutoService {
 
 	//Tentativa de usar o Mapstruct para mapeamento de classes DTO
 	//private final ProdutoMapper mapper = ProdutoMapper.INSTANCE;
-
-	@Autowired
-	public ProdutoService(ProdutoRepository produtoRepository, ProdutoSendMessage produtoSendMessage) {
-		super();
-		this.produtoRepository = produtoRepository;
-		this.produtoSendMessage = produtoSendMessage;
-	}
 
 	public ProdutoDTO create(ProdutoDTO produtoDTO) {
 		ProdutoDTO produtoDTORetorno = ProdutoDTO.create(produtoRepository.save(Produto.create(produtoDTO)));
@@ -47,7 +42,7 @@ public class ProdutoService {
 
 	public ProdutoDTO findById(Long id) {
 		var entity = produtoRepository.findById(id)
-				.orElseThrow(() -> new ResourceNotFoundException("No records found for this ID"));
+				.orElseThrow(ResourceNotFoundException::new);
 		return ProdutoDTO.create(entity);
 	}
 
@@ -55,7 +50,7 @@ public class ProdutoService {
 		final Optional<Produto> optionalProduto = produtoRepository.findById(produtoDTO.getId());
 
 		if (!optionalProduto.isPresent()) {
-			new ResourceNotFoundException("No records found for this ID");
+			throw new ResourceNotFoundException();
 		}
 
 		return ProdutoDTO.create(produtoRepository.save(Produto.create(produtoDTO)));
@@ -63,7 +58,7 @@ public class ProdutoService {
 
 	public void delete(Long id) {
 		var entity = produtoRepository.findById(id)
-				.orElseThrow(() -> new ResourceNotFoundException("No records found for this ID"));
+				.orElseThrow(ResourceNotFoundException::new);
 
 		produtoRepository.delete(entity);
 	}

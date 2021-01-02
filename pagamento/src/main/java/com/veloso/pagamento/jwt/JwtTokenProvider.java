@@ -2,6 +2,7 @@ package com.veloso.pagamento.jwt;
 
 import java.util.Base64;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.Date;
 import java.util.Objects;
 
@@ -68,7 +69,7 @@ public class JwtTokenProvider {
 
 			@Override
 			public Collection<? extends GrantedAuthority> getAuthorities() {
-				return null;
+				return Collections.emptyList();
 			}
 		};
 
@@ -86,10 +87,7 @@ public class JwtTokenProvider {
 	public boolean validateToken(String token) {
 		try {
 			Jws<Claims> claims = Jwts.parser().setSigningKey(this.secretKey).parseClaimsJws(token);
-			if (claims.getBody().getExpiration().before(new Date())) {
-				return false;
-			}
-			return true;
+			return claims.getBody().getExpiration().before(new Date());
 		} catch (JwtException | IllegalArgumentException e) {
 			return false;
 		}

@@ -51,7 +51,7 @@ public class VendaController {
 	}
 
 	@GetMapping(produces = { APPLICATION_JSON_VALUE, APPLICATION_XML_VALUE, "application/x-yaml" })
-	public ResponseEntity<?> findAll(@RequestParam(value = "page", defaultValue = "0") int page,
+	public ResponseEntity<PagedModel<EntityModel<VendaDTO>>> findAll(@RequestParam(value = "page", defaultValue = "0") int page,
 			@RequestParam(value = "limit", defaultValue = "12") int limit,
 			@RequestParam(value = "direction", defaultValue = "asc") String direction) {
 		var sortDirection = "desc".equalsIgnoreCase(direction) ? Direction.DESC : Direction.ASC;

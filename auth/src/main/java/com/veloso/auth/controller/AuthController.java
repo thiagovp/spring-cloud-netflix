@@ -41,14 +41,9 @@ public class AuthController {
 		this.userRepository = userRepository;
 	}
 	
-	@RequestMapping("/testeSecurity")
-	public String teste() {
-		return "testado";
-	}
-
 	@PostMapping(produces = { APPLICATION_JSON_VALUE, APPLICATION_XML_VALUE, "application/x-yaml" }, consumes = {
 			APPLICATION_JSON_VALUE, APPLICATION_XML_VALUE, "application/x-yaml" })
-	public ResponseEntity<?> login(@RequestBody UserDTO userDTO) {
+	public ResponseEntity<Map<Object, Object>> login(@RequestBody UserDTO userDTO) {
 		try {
 			var username = userDTO.getUsername();
 			var password = userDTO.getPassword();

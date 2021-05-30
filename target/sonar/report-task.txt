@@ -1,0 +1,7 @@
+organization=thiagoveloso
+projectKey=thiagovp_spring-cloud-netflix
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.20494
+dashboardUrl=https://sonarcloud.io/dashboard?id=thiagovp_spring-cloud-netflix
+ceTaskId=AXm-E3z2PXbPG-xxl23n
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXm-E3z2PXbPG-xxl23n

@@ -1,0 +1,36 @@
+
+Åcom.veloso.crud.services.ProdutoService#findAll(Lorg/springframework/data/domain/Pageable;)Lorg/springframework/data/domain/Page;é
+ÉC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/crud/src/main/java/com/veloso/crud/services/ProdutoService.java" "( "1*Û
+1é
+ÉC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/crud/src/main/java/com/veloso/crud/services/ProdutoService.java# #(í
+è
+é
+ÉC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/crud/src/main/java/com/veloso/crud/services/ProdutoService.java# #(2
+%0,com.veloso.crud.repository.ProdutoRepository"__id*B*@)
+'com.veloso.crud.services.ProdutoService"
+produtoRepository˛˚
+é
+ÉC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/crud/src/main/java/com/veloso/crud/services/ProdutoService.java# #(0*
+%1$org.springframework.data.domain.Page"òorg.springframework.data.repository.PagingAndSortingRepository#findAll(Lorg/springframework/data/domain/Pageable;)Lorg/springframework/data/domain/Page;*4
+2
+%0,com.veloso.crud.repository.ProdutoRepository*6
+4
+pageable(org.springframework.data.domain.Pageable23findAll(Lorg/springframework/data/domain/Pageable;)ˆ
+Û
+é
+ÉC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/crud/src/main/java/com/veloso/crud/services/ProdutoService.java# #(1,
+page$org.springframework.data.domain.Page"__id*,
+*
+%1$org.springframework.data.domain.Pageãà
+é
+ÉC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/crud/src/main/java/com/veloso/crud/services/ProdutoService.java$	 $(,*
+%2$org.springframework.data.domain.Page"morg.springframework.data.domain.Page#map(Ljava/util/function/Function;)Lorg/springframework/data/domain/Page;*.
+,
+page$org.springframework.data.domain.Page*
+""2"map(Ljava/util/function/Function;)"ø
+é
+ÉC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/crud/src/main/java/com/veloso/crud/services/ProdutoService.java$ $(-,
+*
+%2$org.springframework.data.domain.Page:4
+pageable(org.springframework.data.domain.PageableB+)
+'com.veloso.crud.services.ProdutoService

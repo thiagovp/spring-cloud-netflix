@@ -1,0 +1,15 @@
+
+Ñcom.veloso.auth.config.SecurityConfig#authenticationManagerBean()Lorg/springframework/security/authentication/AuthenticationManager;å
+ÅC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/config/SecurityConfig.java! !(7"1*î
+1å
+ÅC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/config/SecurityConfig.java"	 "(¢
+ü
+å
+ÅC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/config/SecurityConfig.java"	 "(*G
+%0Aorg.springframework.security.authentication.AuthenticationManager"ºorg.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter#authenticationManagerBean()Lorg/springframework/security/authentication/AuthenticationManager;*
+"""⁄
+å
+ÅC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/config/SecurityConfig.java" "(+I
+G
+%0Aorg.springframework.security.authentication.AuthenticationManagerB)'
+%com.veloso.auth.config.SecurityConfig

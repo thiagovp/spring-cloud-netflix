@@ -1,0 +1,28 @@
+
+vcom.veloso.pagamento.dto.ProdutoDTO#create(Lcom/veloso/pagamento/entity/Produto;)Lcom/veloso/pagamento/dto/ProdutoDTO;è
+ÑC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/pagamento/src/main/java/com/veloso/pagamento/dto/ProdutoDTO.java$ $( "1*Ω	
+1è
+ÑC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/pagamento/src/main/java/com/veloso/pagamento/dto/ProdutoDTO.java%	 %(’“
+è
+ÑC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/pagamento/src/main/java/com/veloso/pagamento/dto/ProdutoDTO.java% %(!
+%0org.modelmapper.ModelMapper"org.modelmapper.ModelMapperÁ
+‰
+è
+ÑC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/pagamento/src/main/java/com/veloso/pagamento/dto/ProdutoDTO.java%	 %(
+%1"%org.modelmapper.ModelMapper#<init>()V*#
+!
+%0org.modelmapper.ModelMapper°û
+è
+ÑC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/pagamento/src/main/java/com/veloso/pagamento/dto/ProdutoDTO.java%	 %(9)
+%2#com.veloso.pagamento.dto.ProdutoDTO"Vorg.modelmapper.ModelMapper#map(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;*#
+!
+%0org.modelmapper.ModelMapper*0
+.
+produto#com.veloso.pagamento.entity.Produto*
+""2(map(Ljava/lang/Object;Ljava/lang/Class;)"ø
+è
+ÑC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/pagamento/src/main/java/com/veloso/pagamento/dto/ProdutoDTO.java% %(:+
+)
+%2#com.veloso.pagamento.dto.ProdutoDTO:.
+produto#com.veloso.pagamento.entity.ProdutoB'"%
+#com.veloso.pagamento.dto.ProdutoDTO

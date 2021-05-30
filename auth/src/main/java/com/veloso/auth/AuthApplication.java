@@ -31,7 +31,7 @@ public class AuthApplication {
 	private void initUsers(UserRepository userRepository, PermissionRepository permissionRepository,
 			BCryptPasswordEncoder passwordEncoder) {
 		Permission permission = null;
-		Permission findPermission = permissionRepository.findByDescription("Admin");
+		var findPermission = permissionRepository.findByDescription("Admin");
 		if (findPermission == null) {
 			permission = new Permission();
 			permission.setDescription("Admin");
@@ -40,7 +40,7 @@ public class AuthApplication {
 			permission = findPermission;
 		}
 
-		User admin = new User();
+		var admin = new User();
 		admin.setUsername("veloso");
 		admin.setAccountNonExpired(true);
 		admin.setAccountNonLocked(true);
@@ -49,7 +49,7 @@ public class AuthApplication {
 		admin.setPassword(passwordEncoder.encode("123456"));
 		admin.setPermissions(Arrays.asList(permission));
 
-		User find = userRepository.findByUsername("veloso");
+		var find = userRepository.findByUsername("veloso");
 		if (find == null) {
 			userRepository.save(admin);
 		}

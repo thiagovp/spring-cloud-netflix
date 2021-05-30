@@ -51,7 +51,7 @@ public class ProdutoController {
 	}
 
 	@GetMapping(produces = { APPLICATION_JSON_VALUE, APPLICATION_XML_VALUE, "application/x-yaml" })
-	public ResponseEntity<?> findAll(@RequestParam(value = "page", defaultValue = "0") int page,
+	public ResponseEntity<PagedModel<EntityModel<ProdutoDTO>>> findAll(@RequestParam(value = "page", defaultValue = "0") int page,
 			@RequestParam(value = "limit", defaultValue = "12") int limit,
 			@RequestParam(value = "direction", defaultValue = "asc") String direction) {
 		var sortDirection = "desc".equalsIgnoreCase(direction) ? Direction.DESC : Direction.ASC;
@@ -85,7 +85,7 @@ public class ProdutoController {
 	}
 	
 	@DeleteMapping("/{id}")
-	public ResponseEntity<?> delete(@PathVariable("id") Long id) {
+	public ResponseEntity<Void> delete(@PathVariable("id") Long id) {
 		produtoService.delete(id);
 		return ResponseEntity.ok().build();
 	}

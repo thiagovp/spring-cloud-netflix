@@ -1,0 +1,57 @@
+
+com.veloso.auth.AuthApplication#init(Lcom/veloso/auth/repository/UserRepository;Lcom/veloso/auth/repository/PermissionRepository;Lorg/springframework/security/crypto/bcrypt/BCryptPasswordEncoder;)Lorg/springframework/boot/CommandLineRunner;Ö
+{C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/AuthApplication.java ("startingBlock*∑
+startingBlockÖ
+{C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/AuthApplication.java ()ç
+ä
+Ö
+{C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/AuthApplication.java (
+%0"
+__annotate*/-
++org.springframework.context.annotation.Bean*=
+;
+userRepository)com.veloso.auth.repository.UserRepositoryﬁ
+€
+Ö
+{C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/AuthApplication.java' (5;
+userRepository)com.veloso.auth.repository.UserRepository"__annotation*
+
+%0ô
+ñ
+Ö
+{C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/AuthApplication.java (
+%1"
+__annotate*/-
++org.springframework.context.annotation.Bean*I
+G
+permissionRepository/com.veloso.auth.repository.PermissionRepositoryÍ
+Á
+Ö
+{C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/AuthApplication.javaL (`G
+permissionRepository/com.veloso.auth.repository.PermissionRepository"__annotation*
+
+%1•
+¢
+Ö
+{C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/AuthApplication.java (
+%2"
+__annotate*/-
++org.springframework.context.annotation.Bean*U
+S
+passwordEncoder@org.springframework.security.crypto.bcrypt.BCryptPasswordEncoderˆ
+Û
+Ö
+{C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/AuthApplication.java ((S
+passwordEncoder@org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"__annotation*
+
+%2*
+1*û
+1Ö
+{C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/AuthApplication.java	 (Q"ê
+Ö
+{C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/AuthApplication.java (R
+"":;
+userRepository)com.veloso.auth.repository.UserRepository:G
+permissionRepository/com.veloso.auth.repository.PermissionRepository:S
+passwordEncoder@org.springframework.security.crypto.bcrypt.BCryptPasswordEncoderB#!
+com.veloso.auth.AuthApplication

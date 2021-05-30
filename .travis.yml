@@ -1,3 +1,11 @@
+dist: xenial
 language: java
 jdk: 
   - openjdk11
+addons:
+  sonarcloud:
+    organization: "thiagoveloso" # the key of the org you chose at step #3
+    token: $SONAR_TOKEN
+script:
+  # other script steps might be done before running the actual analysis
+  - mvn clean verify sonar:sonar -Pcoverage -Dsonar.projectKey=myorg_myrepo

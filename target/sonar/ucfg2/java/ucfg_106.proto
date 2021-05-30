@@ -1,15 +1,0 @@
-
-‰com.veloso.pagamento.config.SecurityConfig#authenticationManagerBean()Lorg/springframework/security/authentication/AuthenticationManager;–
-‹C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/pagamento/src/main/java/com/veloso/pagamento/config/SecurityConfig.java! !(7"1*²
-1–
-‹C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/pagamento/src/main/java/com/veloso/pagamento/config/SecurityConfig.java"	 "(¬
-©
-–
-‹C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/pagamento/src/main/java/com/veloso/pagamento/config/SecurityConfig.java"	 "(*G
-%0Aorg.springframework.security.authentication.AuthenticationManager"¼org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter#authenticationManagerBean()Lorg/springframework/security/authentication/AuthenticationManager;*
-"""ä
-–
-‹C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/pagamento/src/main/java/com/veloso/pagamento/config/SecurityConfig.java" "(+I
-G
-%0Aorg.springframework.security.authentication.AuthenticationManagerB.,
-*com.veloso.pagamento.config.SecurityConfig

@@ -1,133 +1,0 @@
-
-fcom.veloso.auth.jwt.JwtTokenProvider#createToken(Ljava/lang/String;Ljava/util/List;)Ljava/lang/String;ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java, ,("1*Ñ,
-1ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java- -(Ä
-˝
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java- -(
-%0io.jsonwebtoken.Claims"5io.jsonwebtoken.Jwts#claims()Lio/jsonwebtoken/Claims;*"
-io.jsonwebtoken.Jwtsﬁ€
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java- -(4
-%1io.jsonwebtoken.Claims"Mio.jsonwebtoken.Claims#setSubject(Ljava/lang/String;)Lio/jsonwebtoken/Claims;*
-
-%0io.jsonwebtoken.Claims*
-
-usernamejava.lang.String2setSubject(Ljava/lang/String;)Ÿ
-÷
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java- -(5 
-claimsio.jsonwebtoken.Claims"__id*
-
-%1io.jsonwebtoken.Claims˝
-˙
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java. .(
-%2java.lang.Object"__mapSet*"
- 
-claimsio.jsonwebtoken.Claims*	
-roles*
-
-rolesjava.util.List∑¥
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java0 0(
-%3java.util.Date"java.util.Date…
-∆
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java0 0(
-%4"java.util.Date#<init>()V*
-
-%3java.util.Date∆
-√
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java0 0(
-nowjava.util.Date"__id*
-
-%3java.util.Date‹Ÿ
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java1 1((
-
-%5long"java.util.Date#getTime()J*
-
-nowjava.util.Date2	getTime()„
-‡
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java1+ 1(1
-%6java.lang.Long"__id*4*2&
-$com.veloso.auth.jwt.JwtTokenProvider"
-expire∑¥
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java1 1(
-%7java.util.Date"java.util.Date“
-œ
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java1 1(2
-%8"java.util.Date#<init>(J)V*
-
-%7java.util.Date*
-""À
-»
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java1 1(3
-validatejava.util.Date"__id*
-
-%7java.util.Dateâ
-Ü
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java3	 3( 
-%9io.jsonwebtoken.JwtBuilder":io.jsonwebtoken.Jwts#builder()Lio/jsonwebtoken/JwtBuilder;*"
-io.jsonwebtoken.Jwts˝˙
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java3	 3()!
-%10io.jsonwebtoken.JwtBuilder"Zio.jsonwebtoken.JwtBuilder#setClaims(Lio/jsonwebtoken/Claims;)Lio/jsonwebtoken/JwtBuilder;*"
- 
-%9io.jsonwebtoken.JwtBuilder*"
- 
-claimsio.jsonwebtoken.Claims2#setClaims(Lio/jsonwebtoken/Claims;)Á‰
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java3	 3(:!
-%11io.jsonwebtoken.JwtBuilder"Tio.jsonwebtoken.JwtBuilder#setIssuedAt(Ljava/util/Date;)Lio/jsonwebtoken/JwtBuilder;*#
-!
-%10io.jsonwebtoken.JwtBuilder*
-
-nowjava.util.Date2setIssuedAt(Ljava/util/Date;)Ì
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java3	 3(R!
-%12io.jsonwebtoken.JwtBuilder"Vio.jsonwebtoken.JwtBuilder#setExpiration(Ljava/util/Date;)Lio/jsonwebtoken/JwtBuilder;*#
-!
-%11io.jsonwebtoken.JwtBuilder*
-
-validatejava.util.Date2setExpiration(Ljava/util/Date;) 
-«
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java4 4(&)
-%13"io.jsonwebtoken.SignatureAlgorithm"__id*
-""È
-Ê
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java4( 4(1
-%14java.lang.String"__id*7*5&
-$com.veloso.auth.jwt.JwtTokenProvider"
-	secretKey‹Ÿ
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java3	 4(2!
-%15io.jsonwebtoken.JwtBuilder"wio.jsonwebtoken.JwtBuilder#signWith(Lio/jsonwebtoken/SignatureAlgorithm;Ljava/lang/String;)Lio/jsonwebtoken/JwtBuilder;*#
-!
-%12io.jsonwebtoken.JwtBuilder*+
-)
-%13"io.jsonwebtoken.SignatureAlgorithm*
-
-%14java.lang.String2@signWith(Lio/jsonwebtoken/SignatureAlgorithm;Ljava/lang/String;)íè
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java3	 4(<
-%16java.lang.String"6io.jsonwebtoken.JwtBuilder#compact()Ljava/lang/String;*#
-!
-%15io.jsonwebtoken.JwtBuilder2	compact()"©
-ã
-ÄC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/jwt/JwtTokenProvider.java3 4(=
-
-%16java.lang.String:
-usernamejava.lang.String:
-rolesjava.util.ListB(&
-$com.veloso.auth.jwt.JwtTokenProvider

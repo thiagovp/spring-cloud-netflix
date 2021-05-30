@@ -1,15 +1,0 @@
-
-Rcom.veloso.pagamento.jwt.JwtTokenProvider$1#getAuthorities()Ljava/util/Collection;•
-ŠC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/pagamento/src/main/java/com/veloso/pagamento/jwt/JwtTokenProvider.javaG1 G(?"1*Ð
-1•
-ŠC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/pagamento/src/main/java/com/veloso/pagamento/jwt/JwtTokenProvider.javaH H(ÿ
-ü
-•
-ŠC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/pagamento/src/main/java/com/veloso/pagamento/jwt/JwtTokenProvider.javaH H("
-%0java.util.List"1java.util.Collections#emptyList()Ljava/util/List;*"
-java.util.Collections"°
-•
-ŠC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/pagamento/src/main/java/com/veloso/pagamento/jwt/JwtTokenProvider.javaH H(#
-
-%0java.util.ListB/-
-+com.veloso.pagamento.jwt.JwtTokenProvider$1

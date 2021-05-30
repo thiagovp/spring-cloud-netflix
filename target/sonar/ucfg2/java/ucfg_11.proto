@@ -1,15 +1,0 @@
-
-Bcom.veloso.auth.entity.User#getAuthorities()Ljava/util/Collection;Å
-wC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/entity/User.javaK/ K(="1*î
-1Å
-wC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/entity/User.javaL	 L(Î
-Ë
-Å
-wC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/entity/User.javaL	 L( 
-%0java.util.List"1java.util.Collections#emptyList()Ljava/util/List;*"
-java.util.Collections"ú
-Å
-wC:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/entity/User.javaL L(!
-
-%0java.util.ListB
-com.veloso.auth.entity.User

@@ -1,16 +1,0 @@
-
-Bcom.veloso.auth.entity.Permission#getAuthority()Ljava/lang/String;‡
-}C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/entity/Permission.java) )("1*š
-1‡
-}C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/entity/Permission.java*	 *(ã
-à
-‡
-}C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/entity/Permission.java*	 *(
-%0java.lang.String"__id*6*4#
-!com.veloso.auth.entity.Permission"
-description"¤
-‡
-}C:/Users/thiag/STSProjects/spring-cloud-netflix/spring-cloud-parent/auth/src/main/java/com/veloso/auth/entity/Permission.java* *(
-
-%0java.lang.StringB%#
-!com.veloso.auth.entity.Permission

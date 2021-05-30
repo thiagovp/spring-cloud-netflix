@@ -74,7 +74,7 @@
 		<profile>
 			<id>coverage</id>
 			<activation>
-				<activeByDefault>true</activeByDefault>
+				<activeByDefault>false</activeByDefault>
 			</activation>
 			<properties>
 				<sonar.projectKey>thiagovp_spring-cloud-netflix</sonar.projectKey>

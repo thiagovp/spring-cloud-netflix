@@ -21,10 +21,6 @@
 		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
 		<jjwt.version>0.9.1</jjwt.version>
 		<modelmapper.version>2.3.0</modelmapper.version>
-		<sonar.projectKey>thiagovp_spring-cloud-netflix</sonar.projectKey>
-		<sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
-		<sonar.organization>thiagoveloso</sonar.organization>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -73,6 +69,21 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+
+	<profiles>
+		<profile>
+			<id>coverage</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<sonar.projectKey>thiagovp_spring-cloud-netflix</sonar.projectKey>
+				<sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
+				<sonar.organization>thiagoveloso</sonar.organization>
+				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+			</properties>
+		</profile>
+	</profiles>
 
 	<modules>
 		<module>auth</module>
